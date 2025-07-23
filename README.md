@@ -10,6 +10,7 @@ This project covers the full growth marketing funnel—from campaign planning, L
 
 ## Project Structure
 
+
 game_growth_lab/
 │
 ├── data/
@@ -37,4 +38,4 @@ game_growth_lab/
 ├── README.md
 └── requirements.txt
 
-
+---
