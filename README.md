@@ -1,4 +1,4 @@
-# Game Growth Lab 🚀
+# Game Growth 🚀
 
 ## Overview
 
