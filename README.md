@@ -40,6 +40,8 @@ game_growth_lab/
 ├── README.md
 └── requirements.txt
 
+``` bash
+
 Features & Objectives
 1. Campaign Planning & Optimization
 Simulate multi-platform ad campaigns (TikTok, Meta, Google UAC).
