@@ -40,9 +40,10 @@ game_growth_lab/
 ├── README.md
 └── requirements.txt
 
-``` bash
+```
 
-Features & Objectives
+## Features & Objectives
+
 1. Campaign Planning & Optimization
 Simulate multi-platform ad campaigns (TikTok, Meta, Google UAC).
 
@@ -95,7 +96,8 @@ Simulate creative tests aligned with trends.
 
 Provide actionable recommendations based on data.
 
-Data Description
+## Data Description
+
 user_acquisition.csv: Ad campaign performance metrics by platform and creative.
 
 installs.csv: User install dates.
@@ -107,6 +109,16 @@ purchases.csv: Purchase records.
 retention.csv: Retention metrics (D1, D7, D30).
 
 game_updates.csv: Dates and content summaries of game updates.
+
+## Technologies & Tools
+
+Python (Pandas, NumPy, Scikit-learn, XGBoost)
+
+Jupyter Notebooks
+
+Power BI / Tableau for dashboards
+
+Simulated datasets for realistic analysis
 
 
 
