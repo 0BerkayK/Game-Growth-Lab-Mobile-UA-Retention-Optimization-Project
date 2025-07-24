@@ -42,83 +42,90 @@ game_growth_lab/
 
 ```
 
+
+---
+
 ## Features & Objectives
 
-1. Campaign Planning & Optimization
-Simulate multi-platform ad campaigns (TikTok, Meta, Google UAC).
+### 1. Campaign Planning & Optimization
+- Simulate multi-platform ad campaigns (TikTok, Meta, Google UAC).
+- Analyze KPIs such as CPI, CTR, CVR.
+- Conduct A/B creative testing.
+- Identify the most efficient channels and creatives.
 
-Analyze KPIs such as CPI, CTR, CVR.
+### 2. LTV Prediction Model
+- Predict 30-day LTV using early user behavior (sessions, retention, early purchases).
+- Utilize XGBoost regression for modeling.
+- Evaluate with MAE and RMSE metrics.
+- Generate segment-based LTV curves and CSV reports.
 
-Conduct A/B creative testing.
+### 3. Campaign Performance Analysis & Growth Optimization
+- Calculate ROAS.
+- Compare channel performances.
+- Analyze funnel drop-off rates.
+- Recommend budget reallocations.
+- Visualize KPIs via dashboards.
 
-Identify the most efficient channels and creatives.
+### 4. Marketing & Game Update Synchronization
+- Assess impact of game updates on user behavior.
+- Compare D1/D7 retention pre- and post-update.
+- Analyze creative success tied to update features.
 
-2. LTV Prediction Model
-Predict 30-day LTV using early user behavior (sessions, retention, early purchases).
+### 5. User Acquisition & Retention Strategies
+- Perform cohort analysis.
+- Simulate bonus/onboarding effects.
+- Conduct push notification A/B tests.
+- Develop segment-specific action plans.
 
-Utilize XGBoost regression for modeling.
+### 6. Industry Trends & Action Plan
+- Monitor trends like playable ads and rewarded videos.
+- Simulate creative tests aligned with trends.
+- Provide actionable recommendations based on data.
 
-Evaluate with MAE and RMSE metrics.
-
-Generate segment-based LTV curves and CSV reports.
-
-3. Campaign Performance Analysis & Growth Optimization
-Calculate ROAS.
-
-Compare channel performances.
-
-Analyze funnel drop-off rates.
-
-Recommend budget reallocations.
-
-Visualize KPIs via dashboards.
-
-4. Marketing & Game Update Synchronization
-Assess impact of game updates on user behavior.
-
-Compare D1/D7 retention pre- and post-update.
-
-Analyze creative success tied to update features.
-
-5. User Acquisition & Retention Strategies
-Perform cohort analysis.
-
-Simulate bonus/onboarding effects.
-
-Conduct push notification A/B tests.
-
-Develop segment-specific action plans.
-
-6. Industry Trends & Action Plan
-Monitor trends like playable ads and rewarded videos.
-
-Simulate creative tests aligned with trends.
-
-Provide actionable recommendations based on data.
+---
 
 ## Data Description
 
-user_acquisition.csv: Ad campaign performance metrics by platform and creative.
+- `user_acquisition.csv`: Ad campaign performance metrics by platform and creative.
+- `installs.csv`: User install dates.
+- `sessions.csv`: User session activity.
+- `purchases.csv`: Purchase records.
+- `retention.csv`: Retention metrics (D1, D7, D30).
+- `game_updates.csv`: Dates and content summaries of game updates.
 
-installs.csv: User install dates.
+---
 
-sessions.csv: User session activity.
+## How to Use
 
-purchases.csv: Purchase records.
+1. Clone the repository.
+2. Install dependencies from `requirements.txt`.
+3. Run `scripts/generate_data.py` to generate simulated datasets.
+4. Open and run notebooks in the `notebooks/` folder step-by-step:
+   - Start with `01_campaign_planning.ipynb` for campaign simulations.
+   - Follow through to `06_trend_response_summary.ipynb`.
+5. Explore and customize the dashboard in `dashboards/growth_kpi_dashboard.pbix`.
 
-retention.csv: Retention metrics (D1, D7, D30).
-
-game_updates.csv: Dates and content summaries of game updates.
+---
 
 ## Technologies & Tools
 
-Python (Pandas, NumPy, Scikit-learn, XGBoost)
+- Python (Pandas, NumPy, Scikit-learn, XGBoost)
+- Jupyter Notebooks
+- Power BI / Tableau for dashboards
+- Simulated datasets for realistic analysis
 
-Jupyter Notebooks
+---
 
-Power BI / Tableau for dashboards
+## Author
 
-Simulated datasets for realistic analysis
+Berkay Korcum
+
+---
+
+## License
+
+This project is for educational and demonstration purposes.
+
 
 
 
