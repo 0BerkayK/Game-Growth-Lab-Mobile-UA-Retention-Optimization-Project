@@ -12,6 +12,7 @@ This project covers the full growth marketing funnel—from campaign planning, L
 
 ---
 
+```bash
 game_growth_lab/
 │
 ├── data/
