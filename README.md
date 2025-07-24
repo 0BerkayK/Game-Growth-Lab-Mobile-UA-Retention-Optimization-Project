@@ -40,4 +40,71 @@ game_growth_lab/
 ├── README.md
 └── requirements.txt
 
----
+Features & Objectives
+1. Campaign Planning & Optimization
+Simulate multi-platform ad campaigns (TikTok, Meta, Google UAC).
+
+Analyze KPIs such as CPI, CTR, CVR.
+
+Conduct A/B creative testing.
+
+Identify the most efficient channels and creatives.
+
+2. LTV Prediction Model
+Predict 30-day LTV using early user behavior (sessions, retention, early purchases).
+
+Utilize XGBoost regression for modeling.
+
+Evaluate with MAE and RMSE metrics.
+
+Generate segment-based LTV curves and CSV reports.
+
+3. Campaign Performance Analysis & Growth Optimization
+Calculate ROAS.
+
+Compare channel performances.
+
+Analyze funnel drop-off rates.
+
+Recommend budget reallocations.
+
+Visualize KPIs via dashboards.
+
+4. Marketing & Game Update Synchronization
+Assess impact of game updates on user behavior.
+
+Compare D1/D7 retention pre- and post-update.
+
+Analyze creative success tied to update features.
+
+5. User Acquisition & Retention Strategies
+Perform cohort analysis.
+
+Simulate bonus/onboarding effects.
+
+Conduct push notification A/B tests.
+
+Develop segment-specific action plans.
+
+6. Industry Trends & Action Plan
+Monitor trends like playable ads and rewarded videos.
+
+Simulate creative tests aligned with trends.
+
+Provide actionable recommendations based on data.
+
+Data Description
+user_acquisition.csv: Ad campaign performance metrics by platform and creative.
+
+installs.csv: User install dates.
+
+sessions.csv: User session activity.
+
+purchases.csv: Purchase records.
+
+retention.csv: Retention metrics (D1, D7, D30).
+
+game_updates.csv: Dates and content summaries of game updates.
+
+
+
